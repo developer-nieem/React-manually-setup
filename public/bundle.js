@@ -7826,13 +7826,28 @@ var m = reactDomExports;
   client.hydrateRoot = m.hydrateRoot;
 }
 
-// const AddToCard = () => {
-//     return  <div>Ki obosta</div>
+const App = () => {
+  return /*#__PURE__*/React.createElement("div", null, "Hello App");
+};
 
+// import { Badge, Data, HelloApp} from "./addToCart"
+
+// const app = ()=> {
+//     return (
+//         React.createElement("h2" , {style : {color: "red"}}, "Hello react", HelloApp(),Badge() , Data()  )
+//     )
+// } 
+
+// const App = () => {
+//     return(
+//         <React.Fragment>
+//         <div>
+//         <h1>Hello ffff</h1>
+
+//         </div>
+//         </React.Fragment>
+//     )
 // }
 
-const App = () => {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Hello ffff")));
-};
 const root = client.createRoot(document.getElementById("root"));
 root.render( /*#__PURE__*/React.createElement(App, null));
